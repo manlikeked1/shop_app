@@ -14,7 +14,7 @@ class ProductItem extends StatelessWidget {
     return GridTile(
       child: Image.network(
         imageUrl,
-        // fit: BoxFit.cover,
+        fit: BoxFit.cover,
       ),
       footer: GridTileBar(
         backgroundColor: Colors.black54,
