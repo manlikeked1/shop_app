@@ -11,8 +11,17 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'MyShop',
       theme: ThemeData(
-        primarySwatch: Colors.red,
-      ),
+          //Primary/main color for the app
+          primarySwatch: Colors.teal,
+
+          //Secondary color for the app
+          accentColor: Colors.yellow,
+
+          //Responsible for background color
+          canvasColor: Colors.black54,
+
+          //font-family
+          fontFamily: 'Lato'),
       home: ProductOverviewScreen(),
     );
   }
