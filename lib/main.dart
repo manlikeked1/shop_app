@@ -23,6 +23,9 @@ class MyApp extends StatelessWidget {
           //font-family
           fontFamily: 'Lato'),
       home: ProductOverviewScreen(),
+      routes: {
+        // ProductDetailS
+      },
     );
   }
 }
